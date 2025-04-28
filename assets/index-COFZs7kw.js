@@ -3,6 +3,4 @@
   <div id="contact-info" style="display:none;">
     <p>GitHub: <a href="https://github.com/notyourimaginarycoder">imaginary friend</a></p>
   </div>
-
-  test
 `;const r=document.getElementById("contact-btn"),i=document.getElementById("contact-info");r.addEventListener("click",()=>{i.style.display==="none"?(i.style.display="block",r.textContent="Hide Contact Info"):(i.style.display="none",r.textContent="Show Contact Info")});
